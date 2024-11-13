@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import List from "./list.jsx";
-import { Button } from "./ui/button";
+import List from "./List.jsx";
+import { Button } from "./ui/button.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import { Input } from "./ui/input";
+import { Input } from "./ui/input.jsx";
 
 const Filter = ({ tasks, onToggle }) => {
   const [wannastate, setWannaState] = useState("all");

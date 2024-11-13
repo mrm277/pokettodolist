@@ -1,5 +1,5 @@
 import React from "react";
-import Task from "./task.jsx";
+import Task from "./Task.jsx";
 
 const List = ({ tasks, wannastate, onToggle, search }) => {
   if (search) {
